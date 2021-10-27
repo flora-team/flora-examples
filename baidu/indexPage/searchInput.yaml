@@ -1,0 +1,13 @@
+elementName: searchInput
+elementDetails: baidu index page search input
+isBaseElement: true
+locatePattern:
+  xpath: //*[@id="kw"]
+functions:
+- name: inputSearchContext
+  params:
+  - param: inputString
+    comment: the string to input
+    type: string
+  comment: input a string to searchInput
+  operation: setValue

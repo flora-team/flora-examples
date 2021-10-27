@@ -1,0 +1,9 @@
+elementName: searchButton
+elementDetails: baidu index page search button
+isBaseElement: true
+locatePattern:
+  xpath: //*[@id="su"]
+functions:
+- name: clickSearchButton
+  comment: click searchButton
+  operation: click

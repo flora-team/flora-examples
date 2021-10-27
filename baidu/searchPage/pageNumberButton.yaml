@@ -1,0 +1,13 @@
+elementName: pageNumberButton
+elementDetails: button to change page number
+isBaseElement: false
+locateParams:
+- param: number
+  type: string
+  comment: the number of page
+locatePattern:
+  xpath: //*[contains(@class,"page-inner")]//a[descendant::*[text()="${number}"]]
+functions:
+- name: clickPageNumberButton
+  comment: click pageNumberButton
+  operation: click
